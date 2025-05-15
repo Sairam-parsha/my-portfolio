@@ -4,6 +4,7 @@ function Home() {
   return (
     <section>
       <h1>Home Page</h1>
+      <h1>Venkata Sairam Parsha</h1>
     </section>
   );
 }

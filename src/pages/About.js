@@ -5,6 +5,7 @@ function About() {
     <section>
       <h1>About</h1>
       <p>Hello</p>
+      <p>Hello</p>
     </section>
   );
 }
