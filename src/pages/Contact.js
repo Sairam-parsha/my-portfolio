@@ -21,13 +21,14 @@ function Contact() {
     setStatus("Sending...");
 
     try {
-      const response = await fetch("https://portfolio-server-ak3a.onrender.com", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+        const response = await fetch("https://portfolio-server-ak3a.onrender.com/api/contact", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(formData),
+          });
+          
 
       if (response.ok) {
         setStatus("Message sent successfully!");
