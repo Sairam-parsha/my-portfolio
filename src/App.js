@@ -21,9 +21,9 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <div className="a">
+      {/* <div className="a">
           <h1>Hello</h1>
-      </div>
+      </div> */}
       <div className="app-container">
         <Footer />
       </div>
