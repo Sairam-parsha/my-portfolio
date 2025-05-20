@@ -34,3 +34,19 @@ section {
   padding: 2rem;
   text-align: center;
 }
+
+.app-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #222;
+  color: red; 
+  text-align: center;
+  padding: 1rem;
+}
+
+.a{
+  border: #61dafb;
+  background-color: red;
+  min-height: 100vh;
+}
